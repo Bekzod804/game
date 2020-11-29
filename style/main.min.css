@@ -120,7 +120,7 @@
 }
 
 body {
-  font-family: 'Open Sans','Bebas Neue',"Arial",serif;
+  font-family: 'Open Sans', 'Bebas Neue', "Arial", serif;
 }
 
 .container {
@@ -372,6 +372,7 @@ body {
   color: #ffffff;
   z-index: 1;
 }
+
 .section1__inner .section__left__inner p::after {
   position: absolute;
   bottom: 3px;
@@ -382,6 +383,7 @@ body {
   background-color: #f3af34;
   z-index: -1;
 }
+
 .section__right__inner.img__wrapper__first {
   position: absolute;
   width: 510px;
@@ -948,6 +950,7 @@ body {
   background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
   border-radius: 4px;
 }
+
 .footer__top {
   display: flex;
   justify-content: space-between;
@@ -956,6 +959,7 @@ body {
   opacity: 0.5;
   border-bottom: 1px solid #ffffff;
 }
+
 .footer__top a {
   padding: 20px;
   font-family: 'Open Sans';
@@ -968,41 +972,46 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 .footer__bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
 }
+
 .footer__bottom div:first-child {
- font-family: 'Open Sans';
- font-style: normal;
- font-weight: normal;
- font-size: 14px;
- line-height: 19px;
- color: #ffffff;
- mix-blend-mode: normal;
- opacity: 0.5;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
-.footer__bottom div > a {
- font-family: 'Open Sans';
- font-style: normal;
- font-weight: bold;
- font-size: 12px;
- line-height: 16px;
- text-align: right;
- letter-spacing: 0.1em;
- text-transform: uppercase;
- color: #ffffff;
+
+.footer__bottom div>a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 footer a:hover {
   transform: scale(1.1);
   color: red;
 }
+
 footer a {
   transition: all 0.1s linear;
 }
+
 /* footer a::before {
   position: absolute;
   left: 0;
@@ -1023,59 +1032,75 @@ footer a:hover::before {
 footer a:hover {
   color: #f3af34;
 }
+
 nav a:hover {
   transform: scale(1.1);
 }
-.main__center a:hover  {
+
+.main__center a:hover {
   background-color: rgb(0, 26, 255);
   transform: scale(1.1);
 }
+
 .main__bottom a:hover {
   color: rgb(251, 255, 0);
 
 }
+
 .main__bottom a:hover img {
   transform: scale(1.4);
 }
+
 .footer__bottom a:not(:last-child) {
   border-right: 1.5px solid rgb(255, 250, 250);
 }
+
 .footer__bottom a {
   padding: 10px;
 }
+
 .section5__inner button:hover {
   transform: scale(1.1);
 }
+
 .section4__inner__left a:hover {
   box-shadow: 0 0 15px #f3af34;
 }
+
 .gamer a:hover img {
-transform: scale(1.4);
+  transform: scale(1.4);
 }
+
 .image__wrapper a:hover {
   box-shadow: 0 0 25px #f3af34;
 }
+
 .footer__top div.second__div a:hover {
 
   box-shadow: 0 0 12px #f3af34;
 }
+
 #third a:hover {
   box-shadow: 0 0 18px #f3af34;
 }
+
 #third a img {
   object-fit: contain;
   object-position: center center;
 }
+
 #third a {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
 }
+
 #third {
   display: flex;
   align-items: center;
 }
+
 .footer__bottom a:hover {
   box-shadow: 0 0 15px #f3af34;
 }
